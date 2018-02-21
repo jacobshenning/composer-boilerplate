@@ -9,6 +9,8 @@ class MainTest
     public function TestMainClasss()
     {
         $this->main = new Main;
-        $this->main->HelloWorld();
-        }
+        $temp = $this->main->HelloWorld();
+        echo $temp;
+        return $temp;
+    }
 }
