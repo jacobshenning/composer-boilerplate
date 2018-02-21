@@ -1,0 +1,21 @@
+{
+    "name": "composer-boilerplate",
+    "description": "A boilerplate package for composer packages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jacob Henning",
+            "email": "jacobshenning@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "App\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
