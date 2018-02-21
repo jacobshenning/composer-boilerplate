@@ -6,8 +6,9 @@ use Demo\Main;
 
 class MainTest
 {
-    public function __construct()
+    public function TestMainClasss()
     {
-        $this->Main = new Main;
-    }
+        $this->main = new Main;
+        $this->main->HelloWorld();
+        }
 }

@@ -12,4 +12,8 @@ class Main
     {
         echo "Hello World";
     }
+
+    public function HelloWorld() {
+        return "Hello World";
+    }
 }
