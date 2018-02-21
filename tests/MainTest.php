@@ -4,7 +4,7 @@ namespace App\Tests;
 
 use Demo\Main;
 
-class MainTest extends \PHPUnit_Framework_TestCase
+class MainTest
 {
     public function __construct()
     {
